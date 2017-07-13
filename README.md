@@ -6,4 +6,4 @@
 * Adrian Calvopiña
 * Christian Arevalo 
 
-http://github.com - ¡link automático!
+https://github.com/aicalvopina/ConjuntaSW.git - ¡link !
