@@ -11,4 +11,13 @@ package ec.edu.espe.educat.examenconjunto;
  */
 public class Operaciones {
     
+    
+    int multiplicacion(int n1,int n2) {
+        return n1 * n2;
+    }
+
+    int division(int n1, int n2) {
+        return n1 / n2;
+    }
+    
 }
