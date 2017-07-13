@@ -58,17 +58,17 @@ public class Starter {
                 }
             switch (numero) {
                 case 1:
-                    System.out.print("El resultado de la suma es: " + operaciones.sumar(operador1, operador1));
+                    System.out.print("El resultado de la suma es: " + operaciones.sumar(operador1, operador2));
                     
                     break;
                 case 2:
-                    System.out.print("El resultado de la suma es: " + operaciones.resta(operador1, operador1));
+                    System.out.print("El resultado de la resta es: " + operaciones.resta(operador1, operador2));
                     break;
                 case 3:
-                    System.out.print("El resultado de la suma es: " + operaciones.multiplicacion(operador1, operador1));
+                    System.out.print("El resultado de la multiplicacion es: " + operaciones.multiplicacion(operador1, operador2));
                     break;
                 case 4:
-                    System.out.print("El resultado de la suma es: " + operaciones.division(operador1, operador1));
+                    System.out.print("El resultado de la división es: " + operaciones.division(operador1, operador2));
                     break;
             }
         } while (true);
