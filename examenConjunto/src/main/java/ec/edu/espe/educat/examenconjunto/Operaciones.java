@@ -29,4 +29,25 @@ public class Operaciones {
         return n1 / n2;
     }
     
+    
+    /**Creación del método multiplicacionf
+ * @param n1 primero numero a multiplicar
+ * @param n2 segundo numero a multiplicar
+ */
+    
+    float multiplicacionf(float n1,float n2) {
+        return n1 * n2;
+    }
+
+ /**Creación del método divisionf
+ * @param n1 primero numero a dividir
+ * @param n2 segundo numero a dividir
+ */
+   float divisionf(float n1, float n2) {
+        return n1 / n2;
+    }
+    
+    
+    
+    
 }
