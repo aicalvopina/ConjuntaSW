@@ -45,7 +45,17 @@ public class Operaciones {
         return resultado;
     }
     
-   
+   /**
+     * Creacion de los metodo Modulo.
+     * @param numero1 numero al cual se le va obtener el modulo.
+     * @param numero2 numero modulo.
+     * @author CristhianArevalo.
+     */
+    
+    public int modulo(int numero1,int numero2){
+       int modulo= numero1%numero2;
+       return modulo;
+    }
 
     /**
      * Creación del método multiplicacion
