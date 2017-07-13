@@ -25,8 +25,6 @@ public class Starter {
         Operaciones operaciones = new Operaciones();
         boolean banderaTry;
         Scanner in = new Scanner(System.in);
-        Operaciones operacion;
-        int numeroReparticiones = 0;
         System.out.print("\n ----------------------------------------------------");
         System.out.print("\n\t\t MENU PRINCIPAL");
         System.out.print("\n ----------------------------------------------------");
@@ -46,17 +44,31 @@ public class Starter {
                     aux = 0;
                 }
             } while (aux == 0);
+            int operador1=0;
+            int operador2=0;
+            try {
+                    System.out.print("Ingrese el primer Operando: ");
+                    operador1 = in.nextInt();
+                    System.out.print("Ingrese el segundo Operando: ");
+                    operador2 = in.nextInt();
+                    aux = 1;
+                } catch (Exception ex) {
+                    System.out.print("\nIngrese solo nÃºmeros\n");
+                    aux = 0;
+                }
             switch (numero) {
                 case 1:
-                    //operaciones.suma();
+                    System.out.print("El resultado de la suma es: " + operaciones.sumar(operador1, operador1));
+                    
                     break;
                 case 2:
+                    System.out.print("El resultado de la suma es: " + operaciones.resta(operador1, operador1));
                     break;
                 case 3:
-                    operaciones.multiplicacion(aux, aux);
+                    System.out.print("El resultado de la suma es: " + operaciones.multiplicacion(operador1, operador1));
                     break;
                 case 4:
-                    operaciones.division(aux, aux);
+                    System.out.print("El resultado de la suma es: " + operaciones.division(operador1, operador1));
                     break;
             }
         } while (true);
