@@ -42,7 +42,7 @@ public class Operaciones {
      * @param numero2 segundo numero a suma
      * @author Cristhian Arevalo
      */
-    public float suma(float numero1, float numero2) {
+    public float sumaf(float numero1, float numero2) {
         return numero1 + numero2;
     }
 
@@ -53,7 +53,7 @@ public class Operaciones {
      * @param numero2 segundo numero a resta.
      * @author Cristhian Arevalo
      */
-    public float resta(float numero1, float numero2) {
+    public float restaf(float numero1, float numero2) {
         return numero1 - numero2;
     }
 
