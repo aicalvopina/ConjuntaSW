@@ -12,7 +12,27 @@ package ec.edu.espe.educat.examenconjunto;
  * @version 12/07/2017
  */
 public class Operaciones {
+/**
+     * Creación del método suma.
+     *
+     * @param numero1 primero numero a suma
+     * @param numero2 segundo numero a suma
+     * @author Cristhian Arevalo
+     */
+    public int suma(int numero1, int numero2) {
+        return numero1 + numero2;
+    }
 
+    /**
+     * Creación del método resta.
+     *
+     * @param numero1 primero numero a resta.
+     * @param numero2 segundo numero a resta.
+     * @author Cristhian Arevalo
+     */
+    public int resta(int numero1, int numero2) {
+        return numero1 - numero2;
+    }
 
     /**
      * Creacion de metodo suma flotante.
