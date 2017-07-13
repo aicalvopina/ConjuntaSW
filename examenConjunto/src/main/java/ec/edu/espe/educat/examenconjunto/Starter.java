@@ -36,6 +36,8 @@ public class Starter {
                 System.out.print("\n2. Resta:\n ");
                 System.out.print("\n3. Multiplicación:\n ");
                 System.out.print("\n4. División:\n ");
+                System.out.print("\n5. Potecia:\n ");
+                System.out.print("\n6. Modulo:\n ");
                 try {
                     numero = in.nextInt();
                     aux = 1;
@@ -70,6 +72,14 @@ public class Starter {
                 case 4:
                     System.out.print("El resultado de la división es: " + operaciones.division(operador1, operador2));
                     break;
+                case 5:
+                    System.out.print("El resultado de la potencia es: " + operaciones.pontencia(operador1,  operador2));
+                break;
+            case 6:
+                System.out.print("El resultado del modulo es: " + operaciones.modulo( operador1, operador2));
+                break;
+            default:
+                break;
             }
         } while (true);
     }
