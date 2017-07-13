@@ -26,6 +26,7 @@ public class Operaciones {
 
     /**
      * Creacion de los metodo resta.
+     *
      * @param numero1 primer numero a sumar.
      * @param numero2 segundo numero a sumar.
      * @author CristhianArevalo.
@@ -33,28 +34,29 @@ public class Operaciones {
     public int resta(int numero1, int numero2) {
         return numero1 + numero2;
     }
-    
+
     /**
      * Creacion de los metodo potencia.
+     *
      * @param base numero base de la potencia.
      * @param potencia numero potencia.
      * @author CristhianArevalo.
      */
-    public int pontencia(int base, int potencia){
-    int resultado = (int) Math.pow(base, potencia);
+    public int pontencia(int base, int potencia) {
+        int resultado = (int) Math.pow(base, potencia);
         return resultado;
     }
-    
-   /**
+
+    /**
      * Creacion de los metodo Modulo.
+     *
      * @param numero1 numero al cual se le va obtener el modulo.
      * @param numero2 numero modulo.
      * @author CristhianArevalo.
      */
-    
-    public int modulo(int numero1,int numero2){
-       int modulo= numero1%numero2;
-       return modulo;
+    public int modulo(int numero1, int numero2) {
+        int modulo = numero1 % numero2;
+        return modulo;
     }
 
     /**

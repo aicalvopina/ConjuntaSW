@@ -46,22 +46,22 @@ public class Starter {
                     aux = 0;
                 }
             } while (aux == 0);
-            int operador1=0;
-            int operador2=0;
+            int operador1 = 0;
+            int operador2 = 0;
             try {
-                    System.out.print("Ingrese el primer Operando: ");
-                    operador1 = in.nextInt();
-                    System.out.print("Ingrese el segundo Operando: ");
-                    operador2 = in.nextInt();
-                    aux = 1;
-                } catch (Exception ex) {
-                    System.out.print("\nIngrese solo nÃºmeros\n");
-                    aux = 0;
-                }
+                System.out.print("Ingrese el primer Operando: ");
+                operador1 = in.nextInt();
+                System.out.print("Ingrese el segundo Operando: ");
+                operador2 = in.nextInt();
+                aux = 1;
+            } catch (Exception ex) {
+                System.out.print("\nIngrese solo nÃºmeros\n");
+                aux = 0;
+            }
             switch (numero) {
                 case 1:
                     System.out.print("El resultado de la suma es: " + operaciones.sumar(operador1, operador2));
-                    
+
                     break;
                 case 2:
                     System.out.print("El resultado de la resta es: " + operaciones.resta(operador1, operador2));
@@ -73,13 +73,13 @@ public class Starter {
                     System.out.print("El resultado de la división es: " + operaciones.division(operador1, operador2));
                     break;
                 case 5:
-                    System.out.print("El resultado de la potencia es: " + operaciones.pontencia(operador1,  operador2));
-                break;
-            case 6:
-                System.out.print("El resultado del modulo es: " + operaciones.modulo( operador1, operador2));
-                break;
-            default:
-                break;
+                    System.out.print("El resultado de la potencia es: " + operaciones.pontencia(operador1, operador2));
+                    break;
+                case 6:
+                    System.out.print("El resultado del modulo es: " + operaciones.modulo(operador1, operador2));
+                    break;
+                default:
+                    break;
             }
         } while (true);
     }
